@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css"> </head>
+
+<body>
+  <div class="text-center d-flex align-items-center h-25 opaque opaque-fade-out bg-primary" style="background-image: url(&quot;http://site.vertequip.com/sites/default/files/world-map-background1_0.jpg&quot;);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h5 class="">¿Qué está pasando?<br></h5></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><a class="btn btn-success btn-block" href="new.html">Nueva entrada <i class="fa fa-fw fa-plus-circle"></i></a></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="all-entries">
+  </div>
+
+  <script id="entry-tpl" type="text/template">
+    <div class="py-5  section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs -6 col-md-6 col-6 col-sm-6">
+            <img src="IMAGE" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-6 col-sm-6 col-md-6">
+            <h6 class="text-primary">TITLE</h6>
+            <p class="">MESSAGE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/diary.js"></script>
+
+  <script type="text/javascript">
+      app.initialize();
+  </script>
+
+  <script type="text/javascript" src="js/load.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css"> </head>
+
+<body>
+  <div class="text-center d-flex align-items-center h-25 bg-danger">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+
+          <p class="lead text-white">Nueva entrada</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-faded py-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <form lpformnum="1" _lpchecked="1">
+            <fieldset class="form-group">
+              <label for="exampleInputEmail1">Título</label>
+              <input id="title" type="text" class="form-control" id="exampleInputEmail1" placeholder="titulo...">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="exampleInputEmail1">Mensaje</label>
+              <input id="message" type="text" class="form-control" id="exampleInputEmail1" placeholder="mensaje...">
+            </fieldset>
+
+            <img class="img-fluid d-block img-thumbnail" id="imgPreview" src="">
+
+            <button type="button" onclick="Diary.addPic()" class="btn btn-block btn-sm my-3 btn-info">Agregar foto<i class="fa fa-fw fa-camera-retro"></i></button>
+
+            <button onclick="Diary.save()" type="button" class="btn btn-success btn-block text-center">Crear</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/diary.js"></script>
+  <script type="text/javascript">
+      app.initialize();
+  </script>
+
+</body>
+
+</html>
